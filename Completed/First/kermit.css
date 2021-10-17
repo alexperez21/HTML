@@ -1,0 +1,28 @@
+html{
+    background-color: rgba(240, 248, 255, 0.952);
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+.left{
+    text-align: left;  
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+span{
+    background-color: yellow;
+}
+img{
+    border: 5px solid #555;
+    border-color: green;
+    text-align: center;
+}
+ol{
+    color: green;
+}

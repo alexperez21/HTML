@@ -1,0 +1,114 @@
+body{
+    background-color: lightblue;
+}
+
+header{
+    background-color: blue;
+    font-size: 16pt;
+    text-align: center;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+.divmargin{
+    margin-left:12.5%;
+    font-weight: bold;
+    color:yellow;
+}
+.firstdiv{
+    background-color: blue;
+    font-size: 16pt;
+    padding:20px;
+    display: inline-block;
+    margin:22px;
+    text-align: center;
+    border: 2px solid black;
+    width: 25%;
+    margin:2px;
+}
+.sec{
+    margin-left:12.5%;
+    font-weight: bold;
+    color:yellow;
+}
+.secA{
+    display: inline-block;
+    margin:22px;
+    text-align: center;
+    border: 2px solid black;
+    width: 25%;
+    margin:2px;
+    background-color: blue;
+    font-size: 16pt;
+    padding:20px;
+}
+.secB{
+    display: inline-block;
+    margin:22px;
+    text-align: center;
+    border: 2px solid black;
+    width: 25%;
+    margin:2px;
+    background-color: blue;
+    font-size: 16pt;
+    padding:20px;
+}
+.secC{
+    display: inline-block;
+    margin:22px;
+    text-align: center;
+    border: 2px solid black;
+    width: 25%;
+    margin:2px;
+    margin-top: 10px;
+    background-color: blue;
+    font-size: 16pt;
+    padding:20px;
+}
+.third{
+    margin-left:12.5%;
+    font-weight: bold;
+    color:lightblue;
+    vertical-align:top;
+    
+}
+.thirdA{
+    display: inline-block;
+    margin:22px;
+    text-align: center;
+    border: 2px solid black;
+    width: 25%;
+    margin:2px;
+    background-color: red;
+    font-size: 16pt;
+    padding-bottom:40px;
+    vertical-align:top;
+    padding:20px;
+}
+.thirdB{
+    display: inline-block;
+    margin:22px;
+    text-align: center;
+    border: 2px solid black;
+    width: 25%;
+    margin:2px;
+    background-color: red;
+    font-size: 16pt;
+    padding-bottom:40px;
+    vertical-align:top;
+    padding:20px;
+}
+.thirdC{
+    display: inline-block;
+    margin:22px;
+    text-align: center;
+    border: 2px solid black;
+    width: 25%;
+    margin:2px;
+    background-color: red;
+    font-size: 16pt;
+    padding-bottom:40px;
+    vertical-align:top;
+    padding:20px;
+}

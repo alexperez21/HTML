@@ -1,0 +1,85 @@
+.highlight
+{
+ color:red;
+ background:white;
+}
+.one
+{
+ background:pink;
+ display: block;
+ margin-left: 20%;
+ margin-right: 10%;
+ margin-bottom: 5px;
+ margin-top: 5px;
+ border-top: 3px  blue solid;
+ border-bottom: 3px blue solid;
+ font-size: 16pt;
+ font-family: sans-serif;
+ line-height: 0px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+}
+.two
+{
+ background:lightblue;
+ margin-left: 10%;
+ margin-right: 20%;
+ border-top: 3px solid blue;
+ border-bottom: 3px solid blue;
+ font-size: 16pt;
+ font-family: sans-serif;
+ line-height: 0px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ margin-bottom: 5px;
+}
+
+body
+{
+ text-align: center;
+}
+h3
+{
+ color:white;
+ background: red;
+}
+img
+{
+ border:5px blue dotted;
+ width:30%;
+}
+p:hover
+{
+ color:green;
+ border: 2px solid black;
+}
+header
+{
+ background: lightgreen;
+ border: 5px solid blue;
+ padding-bottom: 10px;
+ padding-left:10pt;
+}
+footer {
+    background-color: lightgreen;
+    border: 4pt blue solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+body{
+    background-color: gold;
+}
+.greatChallenge{
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 20pt;
+    font-family: sans-serif;
+}
+.Writtenby{
+    font-size: 16pt;
+    font-family: sans-serif;
+}

@@ -1,0 +1,19 @@
+#Red,#Yellow,#Green,#Blue,#Black{
+    align-items: center;
+    border: 2px solid black;
+    max-height:100%; 
+    max-width:100%;
+    margin-right: 30px; 
+    padding: 45px;
+    display: inline-block;
+}
+.cell{
+    display: inline-block;
+}
+.row{
+    float: center;
+    margin-left:30%;
+}
+h1{
+    text-align: center;
+}
