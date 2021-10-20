@@ -1,0 +1,10 @@
+body{
+    background-color: beige;
+}
+h1{
+    text-align: center;
+}
+button{
+    padding: 20px;
+    font-size: 16pt;
+}
