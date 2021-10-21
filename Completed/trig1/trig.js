@@ -9,11 +9,11 @@ function AddToValues(){
 
 function CreateTable(){
     let output = document.getElementById('table');
-    output.innerHTML = '<tr><th>Angle</th><th>Sin &theta;</th><th>Cos &theta;</th><th>Tan &theta;</th></tr>';
+    output.innerHTML = '<tr><th>Angle</th><th>Sin &theta;</th><th>Cos &theta;</th><th>Tan &theta;</th></tr>'; // he
     
-    for(let i = 0; i < (values.length + 1); i++)
+    for(i = 0; i < (values.length); i++)
     {
-        let radian = values[i] * (Math.PI/180);
-        output.innerHTML = '<tr><td>' + values[i].tofixed(2) + '</td><td>' + Math.sin(radian).toFixed(2)+ '</td><td>' + Math.cos(radian).toFixed(2) + '</td><td>' + Math.tan(radian).toFixed(2) + '</td></tr>';
+        let radian = values[i] * (Math.PI/180); // calc the radians to degrees
+        output.innerHTML += '<tr><td>' + values[i] + '</td><td>' + Math.sin(radian).toFixed(3)+ '</td><td>' + Math.cos(radian).toFixed(3) + '</td><td>' + Math.tan(radian).toFixed(3) + '</td></tr>';
     } 
 }

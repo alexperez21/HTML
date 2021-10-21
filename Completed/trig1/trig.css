@@ -9,10 +9,13 @@ button{
     font-size: 16pt;
 }
 #table, th, td {
-    border: 1px solid black;
+    border: 1px solid midnightblue;
     text-align: center;
-    color:white;
+    color: white;
     margin: 0px;
+  }
+  td{
+      color:black;
   }
 #table{
     margin-left: auto;
