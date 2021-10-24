@@ -1,0 +1,1 @@
+There are 3 challenges that use HTML, CSS and Javascript. The first one is calculating your age in days. The second one is generating cat images. The third one is rock paper scissors. 
