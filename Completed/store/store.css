@@ -1,0 +1,12 @@
+th{
+    background-color: yellow;
+}
+#table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    margin: 0px;
+  }
+#table{
+    margin-left: auto;
+    margin-right: auto;
+}
