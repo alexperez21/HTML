@@ -134,5 +134,12 @@ div.mainbox{
 .red{
     background-color: tomato;
 }
+button{
+    margin-left: 45%;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
 
 
