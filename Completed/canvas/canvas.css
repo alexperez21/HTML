@@ -1,0 +1,13 @@
+h1, h2, .display
+{
+    text-align:center;
+}
+canvas
+{
+    border:solid 10px cyan;
+    background-color: black;
+
+}
+body{
+    background-color: oldlace;
+}
