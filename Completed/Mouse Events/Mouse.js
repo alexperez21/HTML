@@ -1,7 +1,8 @@
+
 function init()
 {
   let c = document.getElementById("surface");
-  let pen = c.getContext("2d");
+   let pen = c.getContext("2d");
 
   c.addEventListener("click", function (e){
     let shapeSizeX = Math.floor(Math.random() * 100);
@@ -18,12 +19,15 @@ function init()
     pen.fillRect(e.offsetX-5, e.offsetY-5, 20, 10);
   });
 
-  //Draw something dynamically
-//  for(i=3;i<100;i+=2){
-//   pen.strokeStyle = "#"+ Math.floor(256*256*256*Math.random()).toString(16);
-//   pen.beginPath();
-//    pen.arc(c.width/2, c.height/2, i, 0, 2 * Math.PI)
-//  pen.stroke();
-//  }
+} 
 
-}
+function drawSquare(color){
+  let c = document.getElementById("surface");
+  let pen = c.getContext("2d");
+
+    var x= Math.floor(Math.random()*512);
+    var y= Math.floor(Math.random()*512);
+    pen.beginPath();
+    pen.fillStyle = color;
+    pen.fillRect (x,y, 100, 100);
+ }

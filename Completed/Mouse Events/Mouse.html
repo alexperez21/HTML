@@ -8,17 +8,21 @@
 <body onload="init();">
 <h2>Mouse Events</h2>
 <p>Create different patterns and color using your mouse commands inside the canvas</p>
+<p>As you move around, different colored blocks would be produced. If you click on the canvas then a random size/color figure would appear</p>
 
 <p class="display">
     <canvas width="600" height="600" id="surface">
         
     </canvas>
 </p>
-
+<p>Click the buttons to add sqaure of the followings colors to the canvas.</p>
 <p>
-    <button class="button button1">Green</button>
-<button class="button button2">Blue</button>
+    <button class="button button1" onclick="drawSquare('green')">Green</button>
+    <button class="button button2" onclick="drawSquare('blue')">Blue</button>
+    <button class="button button3" onclick="drawSquare('red')">Red</button>
+    <button class="button button4" onclick="drawSquare('black')">Black</button>
 </p>
+
 
 </body>
 </html>

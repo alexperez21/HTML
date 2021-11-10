@@ -45,3 +45,22 @@ body{
     background-color: #008CBA;
     color: white;
   }
+  .button3 {
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+  }
+  
+  .button3:hover {
+    background-color: red;
+    color: white;
+  }
+  .button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+  .button4:hover {
+    background-color: black;
+    color: white;
+  }
