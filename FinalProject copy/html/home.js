@@ -26,7 +26,6 @@ const item = [
 ]
 
 
-
 // get parent element
 const sectionCenter = document.querySelector(".section-center");
 const btnContainer = document.querySelector(".btn-container");
@@ -70,8 +69,8 @@ function displayMenuButtons() {
   );
   const categoryBtns = categories
     .map(function (category) {
-      return `<button type="button" class="filter-btn" data-id=${category}>
-          ${category}
+      return `<button type="button" class="filter-btn" data-id=${item.category}>
+          ${item.category}
         </button>`;
     })
     .join("");
