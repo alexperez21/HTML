@@ -1,32 +1,26 @@
-const item = [
-    {
-        id: 1,
-        title: "buttermilk pancakes",
-        category: "breakfast",
-        price: 15.99,
-        img: "./images/item-1.jpeg",
-        desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
-      },
-      {
-        id: 2,
-        title: "diner double",
-        category: "lunch",
-        price: 13.99,
-        img: "./images/item-2.jpeg",
-        desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
-      },
-      {
-        id: 3,
-        title: "godzilla milkshake",
-        category: "shakes",
-        price: 6.99,
-        img: "./images/item-3.jpeg",
-        desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
-      },
-]
+const menu = [{
+	id: 1,
+	title: "Play-Doh Modeling Compound 10-Pack Case of Colors",
+	category: "Toys",
+	price: 7.99,
+	img: "./images/item-1.jpeg",
+	desc: `Play-Doh Modeling Compound 10-Pack Case of Colors, Non-Toxic, Assorted, 2 oz. Cans, Ages 2 and up, Multicolor.ed `,
+}, {
+	id: 2,
+	title: "Play-Doh Modeling Compound 24-Pack Case of Colors",
+	category: "Toys",
+	price: 20.99,
+	img: "./images/item-2.jpeg",
+	desc: `Play-Doh Modeling Compound 24-Pack Case of Colors, Non-Toxic, Assorted, 3-Ounce Cans, Ages 2 and up, Multicolor `,
+}, {
+	id: 3,
+	title: "Apple iPhone 13 (128GB, Midnight)",
+	category: "Technology",
+	price: 829.99,
+	img: "./images/item-3.jpeg",
+	desc: `Advanced dual-camera system with 12MP Wide and Ultra Wide cameras; Photographic Styles, Smart HDR 4, Night mode, 4K Dolby Vision HDR recording`,
+}, ];
 
-
-// get parent element
 const sectionCenter = document.querySelector(".section-center");
 const btnContainer = document.querySelector(".btn-container");
 // display all items when page loads
@@ -69,8 +63,8 @@ function displayMenuButtons() {
   );
   const categoryBtns = categories
     .map(function (category) {
-      return `<button type="button" class="filter-btn" data-id=${item.category}>
-          ${item.category}
+      return `<button type="button" class="filter-btn" data-id=${category}>
+          ${category}
         </button>`;
     })
     .join("");
