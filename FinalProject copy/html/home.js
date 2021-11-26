@@ -1,26 +1,31 @@
-const menu = [{
-	id: 1,
-	title: "Play-Doh Modeling Compound 10-Pack Case of Colors",
+const menu = [
+  {
+  id: 1,
+	title: "Play-Doh Modeling 10-Pack Case of Colors",
 	category: "Toys",
 	price: 7.99,
 	img: "./images/item-1.jpeg",
 	desc: `Play-Doh Modeling Compound 10-Pack Case of Colors, Non-Toxic, Assorted, 2 oz. Cans, Ages 2 and up, Multicolor.ed `,
-}, {
+}, 
+{
 	id: 2,
-	title: "Play-Doh Modeling Compound 24-Pack Case of Colors",
+	title: "Play-Doh Modeling 24-Pack Case of Colors",
 	category: "Toys",
 	price: 20.99,
 	img: "./images/item-2.jpeg",
 	desc: `Play-Doh Modeling Compound 24-Pack Case of Colors, Non-Toxic, Assorted, 3-Ounce Cans, Ages 2 and up, Multicolor `,
-}, {
+},
+ {
 	id: 3,
-	title: "Apple iPhone 13 (128GB, Midnight)",
+	title: "Apple Iphone 13 (128GB, Midnight)",
 	category: "Technology",
 	price: 829.99,
 	img: "./images/item-3.jpeg",
 	desc: `Advanced dual-camera system with 12MP Wide and Ultra Wide cameras; Photographic Styles, Smart HDR 4, Night mode, 4K Dolby Vision HDR recording`,
-}, ];
+},
+];
 
+// get parent element
 const sectionCenter = document.querySelector(".section-center");
 const btnContainer = document.querySelector(".btn-container");
 // display all items when page loads
