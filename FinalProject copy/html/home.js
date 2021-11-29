@@ -23,6 +23,14 @@ const menu = [
 	img: "./images/item-3.jpeg",
 	desc: `Advanced dual-camera system with 12MP Wide and Ultra Wide cameras; Photographic Styles, Smart HDR 4, Night mode, 4K Dolby Vision HDR recording`,
 },
+ {
+	 id:4,
+	 title: "Play-Doh Modeling Compound 42-Pack Case of Colors",
+	 category: "Toys",
+	 price: 15.99,
+	 img: "./items/item-3.jpeg",
+	 desc: `Play-Doh Modeling Compound 42-Pack Case of Colors, Non-Toxic, Assorted, 1 oz. cans, Ages 2 and up, Multicolor `,
+ },
 ];
 
 // get parent element
